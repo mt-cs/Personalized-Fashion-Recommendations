@@ -9,7 +9,7 @@ Data source: Kaggle [Data](https://www.kaggle.com/competitions/h-and-m-personali
 Team: [Firoozeh Kaveh](https://github.com/fika005) | [Marisa Tania](https://github.com/mt-cs) | [Ryan Tjakrakartadinata](https://github.com/tjakrak) 
 
 
-## 📂 Files
+### 📂 Files
 
 👗 articles_EDA.ipynb: EDA for articles dataset
 
@@ -19,17 +19,17 @@ Team: [Firoozeh Kaveh](https://github.com/fika005) | [Marisa Tania](https://gith
 
 ⚙️ feature_engineering.ipynb: Feature engineering, model, result
 
-## ✨ Project Overview
+### ✨ Project Overview
 
 Given the purchase history of customers over time, along with supporting metadata, we want to predict what products each customer will purchase in the 7-day period immediately after the training data ends.
 
-## 🌻 Motivation
+### 🌻 Motivation
 
 Online stores offer shoppers an extensive selection of products to browse through, which is often overwhelming. To enhance the shopping experience, product recommendations are key. Not merely to drive sales, but also to reduce returns, and thereby minimizes emissions from transportation.
 
-## 🗂 Dataset
+### 🗂 Dataset
 
-### 1. articles.csv
+#### 1. articles.csv
 Unique indentifier of an article:
 - article_id (int64) - an unique 9-digit identifier of the article, 105 542 unique values (as the length of the database)
 
@@ -75,7 +75,7 @@ Unique indentifier of an article:
 1 column with a detailed description of the article:
 - detail_desc - 43 404 unique values
 
-### 2. customers.csv
+#### 2. customers.csv
 Unique indentifier of a customer:
 - customer_id - an unique identifier of the customer
 
@@ -87,7 +87,7 @@ Unique indentifier of a customer:
 - age - age of the customer
 - postal_code - postal code (anonimized), 352 899 unique values
  
-### 3. transactions_train.csv
+#### 3. transactions_train.csv
 The transaction dataset is the largest database containing everyday transactions in two years period. It contains 31788324 rows × 5 columns:
 - t_dat : Date of a transaction in format YYYY-MM-DD but provided as a string.
 - customer_id : A unique identifier of every customer (mapped to the customer_id in customers table)
@@ -95,13 +95,13 @@ The transaction dataset is the largest database containing everyday transactions
 - price : Price of purchase
 - sales_channel_id : sales channel 1 or 2
 
-## 🧠 Model & Result
+### 🧠 Model & Result
 
-### Bagging Classifier
+#### Bagging Classifier
 - Accuracy score = 78 %
 - Execution time = 2.06 s per test datapoint
 
-### Light GBM
+#### Light GBM
 - Accuracy score = 80 %
 - Execution time = 670 ms per test datapoint
 
@@ -109,7 +109,7 @@ The transaction dataset is the largest database containing everyday transactions
 - Accuracy score = 77 %
 - Execution time = 5.5 ms per test datapoint
 
-## ✅ Submission
+### ✅ Submission
 The final submission is consisted of 12 articles recommendations for each customer in the dataset.
 
 _5 first row of submission:_
