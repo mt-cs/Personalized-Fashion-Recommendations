@@ -1,6 +1,6 @@
-![header](https://user-images.githubusercontent.com/60201466/167953233-53ce9848-5da5-481b-a14d-270c794255d1.jpg)
+# H&M Personalized Fashion Recommendations
 
-_H&M Personalized Fashion Recommendations_
+![header](https://user-images.githubusercontent.com/60201466/167953233-53ce9848-5da5-481b-a14d-270c794255d1.jpg)
 
 Source: Kaggle [H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/overview)
 
@@ -9,9 +9,6 @@ Data source: Kaggle [Data](https://www.kaggle.com/competitions/h-and-m-personali
 Null Team: [Firoozeh Kaveh](https://github.com/fika005) | [Marisa Tania](https://github.com/mt-cs) | [Ryan Tjakrakartadinata](https://github.com/tjakrak) 
 
 <a href="https://youtu.be/-VX6G6C-xPk" title="H&M Personalized Fashion Recommendations"><img src="https://user-images.githubusercontent.com/60201466/167955862-9c911516-c1cb-46fa-8c51-7d807c3fae26.jpg" width="500"></a>
-
-[![presentation](https://user-images.githubusercontent.com/60201466/167955862-9c911516-c1cb-46fa-8c51-7d807c3fae26.jpg)
-](https://youtu.be/-VX6G6C-xPk "H&M Personalized Fashion Recommendations")
 
 ### 📂 Files
 
