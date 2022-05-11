@@ -1,7 +1,5 @@
-# Personalized-Fashion-Recommendations
-H&amp;M Personalized Fashion Recommendations
-
 # H&M Personalized Fashion Recommendations
+H&amp;M Personalized Fashion Recommendations
 
 Source: Kaggle [H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/overview)
 Data source: Kaggle [Data](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data)
