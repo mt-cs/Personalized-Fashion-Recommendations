@@ -1,4 +1,4 @@
-## H&M Personalized Fashion Recommendations
+# H&M Personalized Fashion Recommendations Machine Learning Project
 
 ![header](https://user-images.githubusercontent.com/60201466/167953233-53ce9848-5da5-481b-a14d-270c794255d1.jpg)
 
@@ -8,7 +8,7 @@ Data source: Kaggle [Data](https://www.kaggle.com/competitions/h-and-m-personali
 
 Null Team: [Firoozeh Kaveh](https://github.com/fika005) | [Marisa Tania](https://github.com/mt-cs) | [Ryan Tjakrakartadinata](https://github.com/tjakrak) 
 
-### 📂 Files
+## 📂 Files
 
 👗 articles_EDA.ipynb: EDA for articles dataset
 
@@ -26,11 +26,11 @@ Null Team: [Firoozeh Kaveh](https://github.com/fika005) | [Marisa Tania](https:/
 
 Given the purchase history of customers over time, along with supporting metadata, we want to predict what products each customer will purchase in the 7-day period immediately after the training data ends.
 
-### 🌻 Motivation
+## 🌻 Motivation
 
 Online stores offer shoppers an extensive selection of products to browse through, which is often overwhelming. To enhance the shopping experience, product recommendations are key. Not merely to drive sales, but also to reduce returns, and thereby minimizes emissions from transportation.
 
-### 🧠 Model & Result
+## 🧠 Model & Result
 
 #### Bagging Classifier
 - Accuracy score = 78 %
@@ -44,7 +44,7 @@ Online stores offer shoppers an extensive selection of products to browse throug
 - Accuracy score = 77 %
 - Execution time = 5.5 ms per test datapoint
 
-### ✅ Submission
+## ✅ Submission
 The final submission is consisted of 12 articles recommendations for each customer in the dataset.
 
 _5 first row of submission:_
@@ -56,7 +56,7 @@ _5 first row of submission:_
 |00000dbacae5abe5e23885899a1fa44253a17956c6d1c3...| 0902802001 0906576001 0815434001 0852584001 08...|
 |0000423b00ade91418cceaf3b26c6af3dd342b51fd051e...| 0815434001 0852584001 0906576001 0902802001 08...|
 
-### 🗂 Dataset
+## 🗂 Dataset
 We use three datasets in this project:
 
 #### 1. transactions_train.csv
@@ -108,8 +108,4 @@ Columns related to the pattern, color, perceived colour (general tone), departme
 - garment_group_n - section number, 56 unique values
 - garment_group_name - section name, 56 unique values
 - detail_desc - 43404 unique values
-
-
-
-
 
