@@ -31,7 +31,10 @@ Online stores offer shoppers an extensive selection of products to browse throug
 ### 🗂 Dataset
 
 #### 1. articles.csv
+Unique indentifier of an article:
 - article_id (int64) - an unique 9-digit identifier of the article, 105 542 unique values (as the length of the database)
+
+Columns related to the pattern, color, perceived colour (general tone), department, index, section, garment group, and detailed description
 - product_code (int64) - 6-digit product code (the first 6 digits of article_id, 47 224 unique values
 - prod_name (object) - name of a product, 45 875 unique values
 - product_type_no (int64) - product type number, 131 unique values
