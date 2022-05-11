@@ -6,8 +6,9 @@ Data source: Kaggle [Data](https://www.kaggle.com/competitions/h-and-m-personali
 
 ![header](https://user-images.githubusercontent.com/60201466/167953233-53ce9848-5da5-481b-a14d-270c794255d1.jpg)
 
-Team: [Firoozeh Kaveh](https://github.com/fika005) | [Marisa Tania](https://github.com/mt-cs) | [Ryan Tjakrakartadinata](https://github.com/tjakrak) 
+Null Team: [Firoozeh Kaveh](https://github.com/fika005) | [Marisa Tania](https://github.com/mt-cs) | [Ryan Tjakrakartadinata](https://github.com/tjakrak) 
 
+[![presentation](https://user-images.githubusercontent.com/60201466/167954392-51df8282-0fbd-41dd-bf3b-c3126981bc00.jpg)](https://youtu.be/-VX6G6C-xPk "H&M Personalized Fashion Recommendations")
 
 ### 📂 Files
 
