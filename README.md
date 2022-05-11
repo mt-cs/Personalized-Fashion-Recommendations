@@ -30,11 +30,31 @@ Online stores offer shoppers an extensive selection of products to browse throug
 
 ### 🗂 Dataset
 
-#### 1. articles.csv
+#### 1. transactions_train.csv
+The transaction dataset is the largest database containing everyday transactions in two years period. It contains 31788324 rows × 5 columns:
+- t_dat - Date of a transaction in format YYYY-MM-DD but provided as a string.
+- customer_id - A unique identifier of every customer (mapped to the customer_id in customers table)
+- article_id - A unique identifier of every article (mapped to the article_id in articles table)
+- price : Price of purchase
+- sales_channel_id - sales channel 1 or 2
+
+#### 2. customers.csv
+Unique indentifier of a customer:
+- customer_id - an unique identifier of the customer
+
+5 product related columns:
+- FN - binary feature (1 or NaN)
+- Active - binary feature (1 or NaN)
+- club_member_status - status in a club, 3 unique values
+- fashion_news_frequency - frequency of sending communication to the customer, 4 unique values
+- age - age of the customer
+- postal_code - postal code (anonimized), 352 899 unique values
+ 
+#### 3. articles.csv
 Unique indentifier of an article:
 - article_id (int64) - an unique 9-digit identifier of the article, 105 542 unique values (as the length of the database)
 
-Columns related to the pattern, color, perceived colour (general tone), department, index, section, garment group, and detailed description
+Columns related to the pattern, color, perceived colour (general tone), department, index, section, garment group, and detailed description:
 - product_code (int64) - 6-digit product code (the first 6 digits of article_id, 47 224 unique values
 - prod_name (object) - name of a product, 45 875 unique values
 - product_type_no (int64) - product type number, 131 unique values
@@ -59,26 +79,6 @@ Columns related to the pattern, color, perceived colour (general tone), departme
 - garment_group_n - section number, 56 unique values
 - garment_group_name - section name, 56 unique values
 - detail_desc - 43 404 unique values
-
-#### 2. customers.csv
-Unique indentifier of a customer:
-- customer_id - an unique identifier of the customer
-
-5 product related columns:
-- FN - binary feature (1 or NaN)
-- Active - binary feature (1 or NaN)
-- club_member_status - status in a club, 3 unique values
-- fashion_news_frequency - frequency of sending communication to the customer, 4 unique values
-- age - age of the customer
-- postal_code - postal code (anonimized), 352 899 unique values
- 
-#### 3. transactions_train.csv
-The transaction dataset is the largest database containing everyday transactions in two years period. It contains 31788324 rows × 5 columns:
-- t_dat - Date of a transaction in format YYYY-MM-DD but provided as a string.
-- customer_id - A unique identifier of every customer (mapped to the customer_id in customers table)
-- article_id - A unique identifier of every article (mapped to the article_id in articles table)
-- price : Price of purchase
-- sales_channel_id - sales channel 1 or 2
 
 ### 🧠 Model & Result
 
