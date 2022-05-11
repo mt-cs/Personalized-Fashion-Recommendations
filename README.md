@@ -19,7 +19,7 @@ Null Team: [Firoozeh Kaveh](https://github.com/fika005) | [Marisa Tania](https:/
 ⚙️ feature_engineering.ipynb: Feature engineering, model, result
 
 ### ✨ Project Overview
-<a href="https://youtu.be/-VX6G6C-xPk" title="H&M Personalized Fashion Recommendations"><img src="https://user-images.githubusercontent.com/60201466/167955862-9c911516-c1cb-46fa-8c51-7d807c3fae26.jpg" width="800"></a>
+<a href="https://youtu.be/-VX6G6C-xPk" title="H&M Personalized Fashion Recommendations"><img src="https://user-images.githubusercontent.com/60201466/167955862-9c911516-c1cb-46fa-8c51-7d807c3fae26.jpg" width="700"></a>
 
 Given the purchase history of customers over time, along with supporting metadata, we want to predict what products each customer will purchase in the 7-day period immediately after the training data ends.
 
